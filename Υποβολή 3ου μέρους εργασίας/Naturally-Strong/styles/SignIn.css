@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #00992b;
+}
+
+img {
+    border-radius: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+}
+
+#form-wrapper {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+#text-fields {
+    display: grid;
+    gap: 10px;
+    grid-auto-rows: minmax(50px, auto);
+    margin-top: 15px;
+}
+
+#remember-me-button {
+    margin-left: -0.5%;
+}
+
+#forgot-password-link {
+    margin-left: 81%;
+}
+
+#button-wrapper {
+    margin-left: 50%;
+}
+
+#error {
+    color: #FFBF00;
+}

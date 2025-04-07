@@ -1,0 +1,33 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #00992b;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    border-radius: 10px;
+}
+
+#wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: minmax(100px, auto);
+}
+
+#logo-wrapper>img {
+    border-radius: 50%;
+}
+
+#submit-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+}
+
+#pdf-field {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}

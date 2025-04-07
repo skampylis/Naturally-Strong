@@ -1,0 +1,84 @@
+* {
+    background-color: #DEB887
+}
+
+#header-wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 3fr);
+    gap: 10px;
+    grid-auto-rows: minmax(100px, auto);
+}
+
+#search-bar {
+    display: grid;
+    grid-template-columns: 80%;
+    justify-content: right
+}
+
+#admin-info>img {
+    border-radius: 50%;
+}
+
+#statistics {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    grid-auto-rows: minmax(100px, auto);
+}
+
+#logout-button {
+    height: 40px;
+    width:100px;
+    color:black;
+    background-color: #4CAF50
+}
+
+#approvals-button {
+    height: 40px;
+    width:100px;
+    color:black;
+    background-color: #4CAF50
+}
+
+#setings-button {
+    height: 40px;
+    width:100px;
+    color:black;
+    background-color: #4CAF50
+}
+
+#messages-button {
+    height: 40px;
+    width:100px;
+    color:black;
+    background-color: #4CAF50
+}
+
+#requests-button {
+    height: 40px;
+    width:100px;
+    color:black;
+    background-color: #4CAF50
+}
+
+#search-button {
+    background-color: #4CAF50;
+}
+
+#first-column {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#second-column {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#third-column {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

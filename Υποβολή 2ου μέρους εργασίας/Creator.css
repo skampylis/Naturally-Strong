@@ -1,0 +1,86 @@
+* {
+  background-color: #DEB887
+}
+
+#header-wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 3fr);
+  gap: 10px;
+  grid-auto-rows: minmax(100px, auto);
+}
+
+#search-bar {
+  display: grid;
+  grid-template-columns: 80%;
+  justify-content: right
+}
+
+#creator-info>img {
+  border-radius: 50%;
+}
+
+#content {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+  grid-auto-rows: minmax(100px, auto);
+}
+
+#upload-button {
+  grid-column: 2;
+  grid-row: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80px;
+  width: 150px;
+  color: black;
+  background-color: #4CAF50
+}
+
+#edit-button {
+  grid-column: 2;
+  grid-row: 2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80px;
+  width: 150px;
+  color: black;
+  background-color: #4CAF50;
+}
+
+#delete-button {
+  grid-column: 2;
+  grid-row: 3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80px;
+  width: 150px;
+  color: black;
+  background-color: #4CAF50;
+}
+
+#logout-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  color: black;
+  background-color: #4CAF50;
+}
+
+#messages-button {
+  color: black;
+  background-color: #4CAF50;
+}
+
+#settings-button {
+  color: black;
+  background-color: #4CAF50;
+}
+
+#search-button {
+  background-color: #4CAF50;
+}

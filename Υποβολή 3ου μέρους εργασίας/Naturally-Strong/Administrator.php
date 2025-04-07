@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="el">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Administrator Profile-Naturally Strong</title>
+        <link rel="icon" href="images\page_images\Logo.jpg">
+        <link rel="stylesheet" href="styles\Administrator.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <div id="wrapper">
+            <div id="header-wrapper">
+                <div id="header-left">
+                    <div id="logo">
+                        <img src="images\page_images\Logo.jpg" alt="Logo" >
+                        <span>Naturally Strong </span>
+                    </div>
+                    <div id="admin-info">
+                        <img src="https://via.placeholder.com/70" alt="Administrator's personal image">
+                        <p>Admin's Username</p>
+                    </div>
+                </div>
+                <!-- end header-left -->
+                <div id="header-center">
+                    <img src="https://via.placeholder.com/300x150" alt="Placeholder">
+                </div>
+                <div id="header-right">
+                    <div id="options-top">
+                        <button id="requests-button" type="button">Requests</button>
+                        <button id="logout-button" type="button">Log Out</button>
+                    </div>
+                    <div id="options-bottom">
+                        <button id="approvals-button" type="button">Approvals</button>
+                        <button id="messages-button" type="button">Send Messages</button>
+                        <button id="setings-button" type="button">Settings</button>
+                    </div>
+                </div>
+                <!-- end header-right -->
+            </div>
+            <!-- end header-wrapper -->
+            <form class="boxx" action="/action_page.php">
+                <input type="text" placeholder="Search.." name="search">
+                <button type="submit"><i class="fa fa-search"></i></button>
+              </form>
+            <div id="statistics">
+                <div id="first-column">
+                    <img src="https://via.placeholder.com/200x240" alt="Image of the most followed trainer">
+                    <p>Most Followed Trainer</p>
+                </div>
+                <div id="second-column">
+                    <img src="https://via.placeholder.com/200x240" alt="Image of the most followed 								nutritionist">
+                    <p>Most Followed Nutritionist</p>
+                </div>
+                <div id="third-column">
+                    <img src="https://via.placeholder.com/200x240" alt="Image of the most followed event 						organizer">
+                    <p>Most Followed Event Organizer</p>
+                </div>
+            </div>
+            <!-- end statistics -->
+        </div>
+        <!-- end wrapper -->
+    </body>
+</html>
